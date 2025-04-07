@@ -40,7 +40,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 | Model              | RMSE     | MAPE     | Notes |
 |-------------------|----------|----------|-------|
-| Naïve              | ~173     | ~30–35%  | Baseline |
+| Naïve              | 116.07    | 21.80%  | Baseline |
 | SES                | 114.93   | 22.00%   | Simple smoothing |
 | Holt Linear        | 105.92   | 26.84%   | Captures trend |
 | Holt-Winters       | 111.59   | 22.81%   | Adds seasonality |
