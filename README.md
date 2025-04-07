@@ -35,7 +35,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 ---
 
 ## Forecast Snapshot  
-*(Insert image if available, or remove this section)*  
+![210_Days](assets/210-days-forecast.png) 
 > Example output: Daily forecast from July 2014–Jan 2015  
 > Shows expected weekly cycles and seasonal surges
 
