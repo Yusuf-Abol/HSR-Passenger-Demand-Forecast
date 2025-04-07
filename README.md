@@ -6,7 +6,7 @@
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project builds a **hybrid time series forecasting model** that blends the strengths of:
 - **SARIMAX** (for trend and seasonality)
@@ -16,7 +16,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Predict **daily passenger counts** with high accuracy  
 - Understand and model **weekly and seasonal patterns**  
@@ -25,7 +25,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 ---
 
-## 📈 Data Summary
+## Data Summary
 
 - **Timeframe:** 2012–2014  
 - **Features:** Daily passenger counts  
@@ -36,7 +36,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 ---
 
-## 🧠 Models Compared
+##  Models Compared
 
 | Model              | RMSE     | MAPE     | Notes |
 |-------------------|----------|----------|-------|
@@ -51,7 +51,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 ---
 
-## 🏆 Why Hybrid Works
+##  Why Hybrid Works
 
 - **SARIMAX** handles repeating cycles (weekly, monthly) and long-term growth.
 - **BiGRU** captures irregularities like spikes, holidays, and nonlinear changes.
@@ -59,14 +59,14 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 ---
 
-## 🖼 Forecast Snapshot  
+## Forecast Snapshot  
 *(Insert image if available, or remove this section)*  
 > Example output: Daily forecast from July 2014–Jan 2015  
 > Shows expected weekly cycles and seasonal surges
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 ├── data/              # Raw and processed data
@@ -81,7 +81,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 ```
 
 
-## 🚀 Future Extensions
+## Future Extensions
 
 - Add external regressors (events, weather, holidays)
 - Quantile forecasts for uncertainty estimation
@@ -91,7 +91,7 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 
 ## 🙌 Credits
 
-Developed by [Your Name]  
+Developed by [Yusuf Abolarinwa]  
 Feel free to contribute via PRs or issues!
 
 ---
