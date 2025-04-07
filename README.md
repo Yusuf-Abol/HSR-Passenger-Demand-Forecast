@@ -41,9 +41,10 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ##  Models Compared
 
-| Model              | RMSE     | MAPE     | Notes |
+| Model              | RMSE     | MAPE     | Remark |
 |-------------------|----------|----------|-------|
-| Naïve              | 116.07    | 21.80%  | Baseline |
+| Naïve              | 116.07   | 21.80%  | Baseline |
+| Moving Average     | 125.41 | 22.09%    | Averaging out short-term fluctuations  | 
 | SES                | 114.93   | 22.00%   | Simple smoothing |
 | Holt Linear        | 105.92   | 26.84%   | Captures trend |
 | Holt-Winters       | 111.59   | 22.81%   | Adds seasonality |
