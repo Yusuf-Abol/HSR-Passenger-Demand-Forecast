@@ -2,7 +2,7 @@
 
 # High-Speed Rail Passenger Demand Forecast
 
-> 📊 A robust forecasting pipeline for daily transportation passenger counts, combining classical time series modeling with deep learning for superior accuracy and reliability.
+ 📊 A robust forecasting pipeline for daily transportation passenger counts, combining classical time series modeling with deep learning for superior accuracy and reliability.
 
 ---
 
@@ -80,31 +80,6 @@ It’s designed for **operational planning, capacity forecasting, and resource o
 └── README.md
 ```
 
----
-
-## ⚙️ How to Use
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/transportation-forecasting.git
-   cd transportation-forecasting
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the hybrid model**
-   ```bash
-   python src/hybrid_model.py
-   ```
-
-4. **Check outputs**
-   - Forecast plots in `results/`
-   - Model evaluation metrics printed in console
-
----
 
 ## 🚀 Future Extensions
 
