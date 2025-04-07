@@ -35,7 +35,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
-##  Models Compared
+##  Models Comparison
 
 | Model              | RMSE     | MAPE     | Remark |
 |-------------------|----------|----------|-------|
