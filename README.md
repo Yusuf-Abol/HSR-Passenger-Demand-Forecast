@@ -24,6 +24,9 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 - Enable future-ready extensions (e.g., external variables, real-time deployment)
 
 ---
+## Data Source
+
+ The data for this problem is provided through the competition hosted on [Analytics Vidhya ](https://www.analyticsvidhya.com/datahack/contest/practice-problem-time-series-2/#ProblemStatement)
 
 ## Data Summary
 
@@ -87,24 +90,3 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 - Quantile forecasts for uncertainty estimation
 - Deploy model via REST API or dashboard
 
----
-
-## 🙌 Credits
-
-Developed by [Yusuf Abolarinwa]  
-Feel free to contribute via PRs or issues!
-
----
-
-## 📄 License
-
-Licensed under the MIT License. See `LICENSE` for details.
-
----
-
-Let me know if you’d like:
-- A **demo GIF** or interactive notebook preview
-- A **one-line badge** (e.g., Python version, status)
-- To hook this up with GitHub Pages or Streamlit for live demo access
-
-I can generate any of that for you.
