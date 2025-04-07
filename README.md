@@ -34,6 +34,13 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
+## Forecast Snapshot  
+*(Insert image if available, or remove this section)*  
+> Example output: Daily forecast from July 2014–Jan 2015  
+> Shows expected weekly cycles and seasonal surges
+
+---
+
 ##  Models Comparison
 
 | Model              | RMSE     | MAPE     | Remark |
@@ -48,12 +55,6 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 | BiGRU              | 75.40    | 15.15%   | Learns nonlinear patterns |
 | **Hybrid**         | **74.09**| **11.43%** | ✅ **Best overall performance** |
 
----
-
-## Forecast Snapshot  
-*(Insert image if available, or remove this section)*  
-> Example output: Daily forecast from July 2014–Jan 2015  
-> Shows expected weekly cycles and seasonal surges
 
 ---
 
@@ -66,7 +67,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 │   ├── sarimax_model.py
 │   ├── bigru_model.py
 │   └── hybrid_model.py
-├── results/           # Plots, predictions, metrics
+├── assets/           # Plots, predictions, metrics
 ├── requirements.txt
 └── README.md
 ```
