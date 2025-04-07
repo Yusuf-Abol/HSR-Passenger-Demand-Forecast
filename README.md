@@ -2,7 +2,7 @@
 
 # High-Speed Rail Passenger Demand Forecast
 
- 📊 A robust forecasting pipeline for daily transportation passenger counts, combining classical time series modeling with deep learning for superior accuracy and reliability.
+A robust forecasting pipeline for daily transportation passenger counts, combining classical time series modeling with deep learning for superior accuracy and reliability.
 
 ---
 
@@ -12,7 +12,7 @@ This project builds a **hybrid time series forecasting model** that blends the s
 - **SARIMAX** (for trend and seasonality)
 - **BiGRU** (for complex, non-linear patterns)
 
-It’s designed for **operational planning, capacity forecasting, and resource optimization** in public transit systems.
+It is designed to assist Unicorn Ventures in making an informed decision regarding their investment in JetRail by forecasting passenger traffic for the next 7 months, providing critical insights into the growth potential and demand trends.
 
 ---
 
