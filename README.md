@@ -34,11 +34,13 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
-## Forecast Snapshot  
+## Snapshot  
 
 ![EDA_Output](assets/EDA-output.gif) 
-> Hybrid Model output: Daily forecast from July 2014–Jan 2015  
-> Shows expected weekly cycles and seasonal surges
+> Exploratory Data Analysis: Passenger's transport usage
+> Shows daily, weekly, and monthly demands
+
+
 
 ![210_Days](assets/210-days-forecast.png) 
 > Hybrid Model output: Daily forecast from July 2014–Jan 2015  
