@@ -9,33 +9,29 @@ A robust forecasting pipeline for daily transportation passenger counts, combini
 ## Overview
 
 This project builds a **hybrid time series forecasting model** that blends the strengths of:
-- **SARIMAX** (for trend and seasonality)
-- **BiGRU** (for complex, non-linear patterns)
+- **Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors (SARIMAX)** (for trend and seasonality)
+- **Bi-Directional Gated Recurrent Unit (BiGRU)** (for complex, non-linear patterns)
 
 It is designed to assist Unicorn Ventures in making an informed decision regarding their investment in JetRail by forecasting passenger traffic for the next 7 months, providing critical insights into the growth potential and demand trends.
 
 ---
 
-## Goals
+## Key Findings
 
-- Predict **daily passenger counts** with high accuracy  
-- Understand and model **weekly and seasonal patterns**  
-- Compare performance across multiple statistical and ML models  
-- Enable future-ready extensions (e.g., external variables, real-time deployment)
+- Passenger counts show strong growth from 2012 to 2014, with peak usage in 2014.  
+- Demand follows workweek patterns: high on weekdays, especially at rush hours  (6AM–11AM to midnight), and low on weekends.  
+- Monthly and seasonal patterns indicate cyclical trends, with higher summer demand likely due to tourism.  
+- Among classical models, **Holt Linear** (lowest RMSE) and **SES** (lowest MAPE) perform best.  
+- **SARIMAX** is the top classical model (RMSE: 70.65, MAPE: 13.18%).  
+- **BiGRU** performs second-best overall (RMSE: 75.40, MAPE: 15.15%).  
+- **Hybrid model** (SARIMAX + BiGRU) outperforms all others (RMSE: 74.09, MAPE: 11.43%).  
+- The hybrid forecast for 210 days reflects realistic seasonal trends and weekly cycles.
 
 ---
 ## Data Source
 
  The data for this problem is provided through the competition hosted on [Analytics Vidhya ](https://www.analyticsvidhya.com/datahack/contest/practice-problem-time-series-2/#ProblemStatement)
 
-## Data Summary
-
-- **Timeframe:** 2012–2014  
-- **Features:** Daily passenger counts  
-- **Patterns Identified:**
-  - 📅 Strong weekly cycle (Mon–Fri peaks)
-  - 🌞 Summer surges (tourism effect)
-  - 📈 Long-term upward trend
 
 ---
 
