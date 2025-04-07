@@ -36,7 +36,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ## Forecast Snapshot  
 
-![210_Days](assets/210-days-forecast.png) 
+![EDA_Output](assets/EDA-output.gif) 
 > Hybrid Model output: Daily forecast from July 2014–Jan 2015  
 > Shows expected weekly cycles and seasonal surges
 
