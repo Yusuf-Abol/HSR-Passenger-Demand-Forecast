@@ -37,13 +37,12 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 ## Snapshot  
 
 ![EDA_Output](assets/EDA-output.gif) 
-> Exploratory Data Analysis: Passenger's transport usage
-> Shows daily, weekly, and monthly demands
+> High Speed Rail Adoption
 
-
+---
 
 ![210_Days](assets/210-days-forecast.png) 
-> Hybrid Model output: Daily forecast from July 2014–Jan 2015  
+> Hybrid Model: Daily forecast from July 2014–Jan 2015  
 > Shows expected weekly cycles and seasonal surges
 
 ---
