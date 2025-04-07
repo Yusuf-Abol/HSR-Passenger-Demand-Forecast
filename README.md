@@ -15,6 +15,12 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
+## Data Source
+
+ The data for this problem is provided through the competition hosted on [Analytics Vidhya ](https://www.analyticsvidhya.com/datahack/contest/practice-problem-time-series-2/#ProblemStatement)
+
+---
+
 ## Key Findings
 
 - Passenger counts show strong growth from 2012 to 2014, with peak usage in 2014.  
@@ -25,12 +31,6 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 - **BiGRU** performs second-best overall (RMSE: 75.40, MAPE: 15.15%).  
 - **Hybrid model** (SARIMAX + BiGRU) outperforms all others (RMSE: 74.09, MAPE: 11.43%).  
 - The hybrid forecast for 210 days reflects realistic seasonal trends and weekly cycles.
-
----
-## Data Source
-
- The data for this problem is provided through the competition hosted on [Analytics Vidhya ](https://www.analyticsvidhya.com/datahack/contest/practice-problem-time-series-2/#ProblemStatement)
-
 
 ---
 
@@ -47,14 +47,6 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 | SARIMAX            | 70.65    | 13.18%   | Strong seasonality capture |
 | BiGRU              | 75.40    | 15.15%   | Learns nonlinear patterns |
 | **Hybrid**         | **74.09**| **11.43%** | ✅ **Best overall performance** |
-
----
-
-##  Why Hybrid Works
-
-- **SARIMAX** handles repeating cycles (weekly, monthly) and long-term growth.
-- **BiGRU** captures irregularities like spikes, holidays, and nonlinear changes.
-- **Together**, they outperform every individual model in both absolute and relative error.
 
 ---
 
