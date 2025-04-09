@@ -1,7 +1,7 @@
 
 # High-Speed Rail Passenger Demand Forecast
 
-![EDA_Output](assets/EDA-output.gif) 
+![EDA_Output](assets/station-pexel.jpg) 
 
 ---
 
