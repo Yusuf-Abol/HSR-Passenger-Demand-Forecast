@@ -25,7 +25,7 @@ transportation | time-series | passenger-forecasting | SARIMAX | BiGRU | forecas
 
 The following flowchart outlines the hybrid training pipeline:
 
- <img src="assets/ML Pipeline.jpg" width="500" height="300" />ML Pipeline.jpg
+ <img src="assets/ML Pipeline.jpg" width="500" height="300" />
  
 ---
 
