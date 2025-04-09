@@ -1,7 +1,7 @@
 
 # High-Speed Rail Passenger Demand Forecast
 
-![EDA_Output](assets/station-pexel.jpg) 
+ <img src="assets/station-pexel.jpg" width="500" height="300" />
 
 ---
 
