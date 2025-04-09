@@ -48,7 +48,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 ## Key Findings
 
 - Passenger counts show strong growth from 2012 to 2014, with peak usage in 2014.  
-- Demand follows workweek patterns: high on weekdays, especially at rush hours  (6AM–11AM to midnight), and low on weekends.  
+- Demand follows workweek patterns: high on weekdays, especially at rush hours  (6AM–11AM to midnight and again from evening to midnight), and low on weekends.  
 - Monthly and seasonal patterns indicate cyclical trends, with higher summer demand likely due to tourism.  
 - Among classical models, **Holt Linear** (lowest RMSE) and **SES** (lowest MAPE) perform best.  
 - **SARIMAX** is the top classical model (RMSE: 70.65, MAPE: 13.18%).  
