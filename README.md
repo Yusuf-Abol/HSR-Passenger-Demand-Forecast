@@ -4,6 +4,13 @@
 A robust forecasting pipeline for daily transportation passenger counts, combining classical time series modeling with deep learning for superior accuracy and reliability.
 
 ---
+
+## Topics
+
+transportation | time-series | passenger-forecasting | SARIMAX | BiGRU | forecasting-pipeline | deep-learning | RNN | seasonality | ridership
+
+---
+
 ## Model Architecture
 
 The following flowchart outlines the hybrid training pipeline:
@@ -12,6 +19,7 @@ The following flowchart outlines the hybrid training pipeline:
 
 ## Table of Contents
 - [Overview](#overview)
+- [Topics](#topics)
 - [Model Architecture](#model-architecture)
 - [Data Source](#data-source)
 - [Key Findings](#key-findings)
@@ -19,8 +27,6 @@ The following flowchart outlines the hybrid training pipeline:
 - [Forecast Snapshots](#forecast-snapshots)
 - [Project Structure](#project-structure)
 - [Future Work](#future-work)
-- [About](#about)
-- [Topics](#topics)
 
 ---
 ## Overview
@@ -105,11 +111,4 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
-## About
-
----
-
-## Topics
-
-transportation | time-series | passenger-forecasting | SARIMAX | BiGRU | forecasting-pipeline | deep-learning | RNN | seasonality | ridership
 
