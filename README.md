@@ -4,7 +4,25 @@
 A robust forecasting pipeline for daily transportation passenger counts, combining classical time series modeling with deep learning for superior accuracy and reliability.
 
 ---
+## Model Architecture
 
+The following flowchart outlines the hybrid training pipeline:
+
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Model Architecture](#model-architecture)
+- [Data Source](#data-source)
+- [Key Findings](#key-findings)
+- [Model Performance](#model-performance)
+- [Forecast Snapshots](#forecast-snapshots)
+- [Project Structure](#project-structure)
+- [Future Work](#future-work)
+- [About](#about)
+- [Topics](#topics)
+
+---
 ## Overview
 
 This project builds a **hybrid time series forecasting model** that blends the strengths of:
@@ -34,20 +52,19 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
-## Snapshot  
+## Forecast Snapshots  
 
 ![EDA_Output](assets/EDA-output.gif) 
-> High Speed Rail Adoption
+ - `EDA Output/`: Visual exploration of time series patterns.
 
 ---
 
 ![210_Days](assets/210-days-forecast.png) 
-> Hybrid Model: Daily forecast from July 2014–Jan 2015  
-> Shows expected weekly cycles and seasonal surges
+- `210 Days Forecast/`: Forecasts from July 2014 to Jan 2015, showcasing weekly and seasonal effects.
 
 ---
 
-##  Models Comparison
+##  Model Performance
 
 | Model              | RMSE     | MAPE     | Remark |
 |-------------------|----------|----------|-------|
@@ -78,12 +95,19 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 └── README.md
 ```
 
+---
 
-## Future Extensions
+## Future Work
 
 - Add external regressors (events, weather, holidays)
 - Quantile forecasts for uncertainty estimation
 - Deploy model via REST API or dashboard
+
+---
+
+## About
+
+---
 
 ## Topics
 
