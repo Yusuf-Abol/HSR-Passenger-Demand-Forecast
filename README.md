@@ -85,3 +85,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 - Quantile forecasts for uncertainty estimation
 - Deploy model via REST API or dashboard
 
+## Topics
+
+transportation | time-series | passenger-forecasting | SARIMAX | BiGRU | forecasting-pipeline | deep-learning | RNN | seasonality | ridership
+
