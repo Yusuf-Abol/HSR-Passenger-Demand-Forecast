@@ -11,7 +11,7 @@ transportation | time-series | passenger-forecasting | SARIMAX | BiGRU | forecas
 
 ---
 
-## Model Architecture
+## Training Pipeline
 
 The following flowchart outlines the hybrid training pipeline:
 
@@ -20,10 +20,10 @@ The following flowchart outlines the hybrid training pipeline:
 ## Table of Contents
 - [Overview](#overview)
 - [Topics](#topics)
-- [Model Architecture](#model-architecture)
+- [Training Pipeline](#training-pipeline)
 - [Data Source](#data-source)
 - [Key Findings](#key-findings)
-- [Model Performance](#model-performance)
+- [Models Comparison](#models-comparison)
 - [Forecast Snapshots](#forecast-snapshots)
 - [Project Structure](#project-structure)
 - [Future Work](#future-work)
@@ -70,7 +70,7 @@ It is designed to assist Unicorn Ventures in making an informed decision regardi
 
 ---
 
-##  Model Performance
+##  Models Comparison
 
 | Model              | RMSE     | MAPE     | Remark |
 |-------------------|----------|----------|-------|
